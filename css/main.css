@@ -1,0 +1,82 @@
+.nav li a :hover{
+    background-color: #fff;
+    bottom: -8px;
+    content: "";
+    display: block;
+	font-size:15px;
+	color: #5a5a5a;
+    left: 0;
+    position: absolute;
+    transform: scaleX(0);
+    transform-origin: left center 0;
+    transition: transform 0.3s cubic-bezier(0.82, 0, 0.12, 1) 0s, -webkit-transform 0.3s cubic-bezier(0.82, 0, 0.12, 1) 0s;
+    width: 100%;
+	border-bottom: 3px solid black; 
+	text-transform: uppercase;
+	font-weight: bold;
+}
+.nav li a {
+    font-family: Gotham SSm,sans-serif;
+    font-size: 15px;
+    letter-spacing: 1px;
+	color: #5a5a5a;
+	border-bottom: 3px solid transparent; 
+	text-transform: uppercase;
+}
+
+.nav li{
+  display: inline;
+}
+
+.Resume{
+	margin-left:15px;
+}
+.Projects{
+	margin-left:15px;
+}
+.SignUp
+{
+	margin-left:15px;
+	
+}
+
+.social {
+	margin-left:800px;
+	margin:auto;
+	
+	text-align:center;
+}
+.jumbotron {
+  background-image:url('http://s33.postimg.org/74r0cr2rj/cup_of_coffee_1280537_1920.jpg');
+  height: 800px;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.jumbotron h1 {
+  color: #fff;
+  font-size: 48px;  
+  font-family: Gotham SSm,sans-serif;
+  font-weight: bold;
+  margin:auto;
+  text-align:center;
+}
+#touch{
+ margin-top:15px;
+}
+.jumbotron p {
+  font-size: 20px;
+  color: #fff;
+  margin:auto;
+  font-family: Gotham SSm,sans-serif;
+  text-align:center;
+}
+
+.jumbotron  a{
+	text-align:center;
+	margin:auto;
+}
+
