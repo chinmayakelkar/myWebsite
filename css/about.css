@@ -22,7 +22,7 @@ h1, h2, h3, h4, h5, h6 {
     /*text-align: justify;*/
 	 text-align: justify;
   margin: 0 auto;
-  width: 30em;
+  width: 50em;
   font-family: Gotham SSm,sans-serif;
 }
 .nav li a :hover{
@@ -106,4 +106,6 @@ margin-left:15px;
 	text-align:center;
 	margin:auto;
 }
-
+.Home{
+	margin-left:340px;
+}
